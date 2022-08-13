@@ -1,0 +1,10 @@
+static int key[] = {
+	IMX_GPIO_NR(1, 20),
+	IMX_GPIO_NR(1, 21),
+	IMX_GPIO_NR(4, 8),
+	IMX_GPIO_NR(4, 9),
+  	IMX_GPIO_NR(4, 5),
+  	IMX_GPIO_NR(7, 13),
+  	IMX_GPIO_NR(1, 7),
+ 	IMX_GPIO_NR(1, 8),
+};

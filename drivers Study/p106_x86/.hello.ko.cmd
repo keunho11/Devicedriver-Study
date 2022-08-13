@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/udoo_linux_bsp/drivers/p106/hello.ko := ld -r  -m elf_x86_64  --build-id=sha1  -T scripts/module.lds -o /home/ubuntu/udoo_linux_bsp/drivers/p106/hello.ko /home/ubuntu/udoo_linux_bsp/drivers/p106/hello.o /home/ubuntu/udoo_linux_bsp/drivers/p106/hello.mod.o;  true

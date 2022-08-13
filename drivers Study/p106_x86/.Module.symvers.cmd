@@ -1,0 +1,1 @@
+cmd_/home/ubuntu/udoo_linux_bsp/drivers/p106/Module.symvers := sed 's/\.ko$$/\.o/' /home/ubuntu/udoo_linux_bsp/drivers/p106/modules.order | scripts/mod/modpost -m -a  -o /home/ubuntu/udoo_linux_bsp/drivers/p106/Module.symvers -e -i Module.symvers   -T -
